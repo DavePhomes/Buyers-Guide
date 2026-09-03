@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buyer's Guide | DP Homes</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root {
+--navy: #16283F;
+--navy-soft: #223B5C;
+--gold: #BC9A5F;
+--gold-light: #E4D3AE;
+--cream: #F6F2EA;
+--card: #FFFFFF;
+--ink: #1E2530;
+--muted: #6B6459;
+--line: #E4DDD0;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+
+#dp-buyers-guide {
+font-family: 'Inter', sans-serif;
+background: var(--cream);
+color: var(--ink);
+padding: 40px 20px 60px;
+}
+
+#dp-buyers-guide .wrap {
+max-width: 780px;
+margin: 0 auto;
+}
+
+#dp-buyers-guide header {
+display: flex;
+align-items: baseline;
+gap: 10px;
+margin-bottom: 4px;
+}
+
+#dp-buyers-guide .brand {
+font-family: 'Fraunces', serif;
+font-weight: 600;
+font-size: 22px;
+color: var(--navy);
+}
+
+#dp-buyers-guide .brand span { color: var(--gold); }
+
+#dp-buyers-guide .tagline {
+font-size: 13px;
+color: var(--muted);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+#dp-buyers-guide h1 {
+font-family: 'Fraunces', serif;
+font-weight: 500;
+font-size: clamp(28px, 4vw, 40px);
+color: var(--navy);
+margin: 26px 0 20px;
+letter-spacing: -0.01em;
+line-height: 1.2;
+}
+
+#dp-buyers-guide p.lede {
+font-size: 16px;
+line-height: 1.7;
+color: var(--ink);
+margin: 0 0 18px;
+}
+
+#dp-buyers-guide p.body-text {
+font-size: 15px;
+line-height: 1.7;
+color: var(--muted);
+margin: 0 0 18px;
+}
+
+#dp-buyers-guide .section-card {
+background: var(--card);
+border: 1px solid var(--line);
+border-radius: 14px;
+padding: 36px 34px;
+margin: 36px 0;
+}
+
+#dp-buyers-guide .section-label {
+font-size: 11px;
+font-weight: 700;
+letter-spacing: 0.09em;
+text-transform: uppercase;
+color: var(--gold);
+margin: 0 0 10px;
+}
+
+#dp-buyers-guide .section-card h2 {
+font-family: 'Fraunces', serif;
+font-weight: 500;
+font-size: 24px;
+color: var(--navy);
+margin: 0 0 16px;
+letter-spacing: -0.01em;
+}
+
+#dp-buyers-guide .section-card > p {
+font-size: 15px;
+line-height: 1.7;
+color: var(--muted);
+margin: 0 0 22px;
+}
+
+#dp-buyers-guide .step {
+padding: 18px 0;
+border-top: 1px solid var(--line);
+}
+
+#dp-buyers-guide .step:first-of-type { border-top: none; padding-top: 0; }
+
+#dp-buyers-guide .step h3 {
+font-family: 'Fraunces', serif;
+font-weight: 600;
+font-size: 17px;
+color: var(--navy);
+margin: 0 0 6px;
+}
+
+#dp-buyers-guide .step p {
+font-size: 14.5px;
+line-height: 1.65;
+color: var(--muted);
+margin: 0;
+}
+
+#dp-buyers-guide .cta-block {
+background: var(--navy);
+border-radius: 14px;
+padding: 36px 34px;
+color: #fff;
+text-align: center;
+margin-top: 36px;
+}
+
+#dp-buyers-guide .cta-block p {
+font-size: 15.5px;
+line-height: 1.65;
+color: #D9DEE6;
+margin: 0 0 24px;
+max-width: 520px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#dp-buyers-guide .cta-row {
+display: flex;
+justify-content: center;
+gap: 12px;
+flex-wrap: wrap;
+}
+
+#dp-buyers-guide .cta-btn {
+display: inline-block;
+background: var(--gold);
+color: var(--navy);
+text-align: center;
+padding: 14px 28px;
+border-radius: 8px;
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.01em;
+text-decoration: none;
+transition: filter 0.15s;
+}
+
+#dp-buyers-guide .cta-btn:hover,
+#dp-buyers-guide .cta-btn:active { filter: brightness(1.08); }
+
+#dp-buyers-guide .cta-btn.secondary {
+background: transparent;
+border: 1.5px solid var(--gold);
+color: var(--gold-light);
+}
+
+#dp-buyers-guide footer {
+text-align: center;
+margin-top: 36px;
+font-size: 12px;
+color: var(--muted);
+}
+</style>
+</head>
+<body>
+
+<div id="dp-buyers-guide">
+<div class="wrap">
+
+<header>
+<div class="brand">DP <span>Homes</span></div>
+<div class="tagline">Keller Williams Bellevue</div>
+</header>
+
+<h1>Buying a home comes with a long list of things people don't say out loud.</h1>
+
+<p class="lede">Am I overpaying? What am I not seeing that I should be? Is this even the right time, or am I about to make a mistake I'll be explaining to myself in five years?</p>
+
+<p class="body-text">Those aren't small questions, and you deserve real answers, not a sales pitch.</p>
+
+<p class="body-text">In my experience working with buyers, the most common thing I hear years after closing isn't regret about the house itself. It's buyers wishing they'd thought about something sooner, asked a different question, or understood a tradeoff before they were already committed. Not because anyone failed them. Because nobody made sure they were thinking far enough ahead.</p>
+
+<p class="body-text">That's the difference I try to make. My job isn't just to get you to closing. It's to make sure you arrive there having actually considered everything, so the home you buy today still works for you years from now.</p>
+
+<div class="section-card">
+<p class="section-label">The Process, At a Glance</p>
+<h2>Here's the shape of it</h2>
+<p>Buying a home has a lot of moving parts, and most of them are new to first-time buyers and rusty for repeat ones. Once we sit down together, we'll go through each step in real detail and build a plan around your specific situation, timeline, and goals.</p>
+
+<div class="step">
+<h3>Get Pre-Approved</h3>
+<p>Before we look at a single home, we get you pre-approved with a lender who fits your situation. This tells you what you can actually afford and tells sellers you're serious the moment we find the right house.</p>
+</div>
+
+<div class="step">
+<h3>Get to the Real Picture</h3>
+<p>Most agents ask what your must-haves and dealbreakers are and call it done. I ask the questions that get you thinking about things you hadn't considered yet &mdash; tradeoffs you didn't know you'd face, priorities you hadn't ranked, scenarios you hadn't pictured. If you're a couple, we work through this together, so you're both starting from the same page instead of finding out mid-search that you wanted different things. Once we've gone this deep, we essentially have a roadmap to your perfect home &mdash; the closest thing to a cheat code in this process. Instead of touring twenty homes hoping one clicks, the homes I send you already check most of the boxes. Your time matters, and this is how we protect it.</p>
+</div>
+
+<div class="step">
+<h3>Search With a Plan</h3>
+<p>I build a targeted search around exactly what we've defined, and send you homes worth your time instead of a flood of listings that don't fit.</p>
+</div>
+
+<div class="step">
+<h3>Tour With a System</h3>
+<p>We visit homes together using a consistent process, so after the fifth or sixth showing they don't all start blending together in your head.</p>
+</div>
+
+<div class="step">
+<h3>Make a Competitive Offer</h3>
+<p>When you've found the one, I evaluate the market and draft an offer that protects your interests while giving you a real shot at winning it.</p>
+</div>
+
+<div class="step">
+<h3>Negotiate and Execute the Contract</h3>
+<p>I walk you through every page of the contract so nothing surprises you, and negotiate on your behalf using real market data, not guesswork.</p>
+</div>
+
+<div class="step">
+<h3>Inspect and Verify</h3>
+<p>We attend the home inspection together, and I help you decide what's worth negotiating and what isn't.</p>
+</div>
+
+<div class="step">
+<h3>Close With Confidence</h3>
+<p>I prepare you for closing day well in advance, so it's paperwork and a handshake, not a scramble.</p>
+</div>
+
+</div>
+
+<div class="cta-block">
+<p class="section-label" style="color: var(--gold-light);">Ready When You Are</p>
+<p>If you're thinking about buying a home, let's talk about what this actually looks like for you &mdash; no pressure, no obligation, just a real conversation about where you're starting from and what you need.</p>
+<div class="cta-row">
+<a href="tel:+12067193059" class="cta-btn">Call / Text
+</a>
+<a href="mailto:davepiedrahita@kw.com?subject=Buyer%20Consultation" class="cta-btn secondary">Email Dave
+</a>
+</div>
+</div>
+
+<footer>Dave Piedrahita &middot; DP Homes at Keller Williams Bellevue &middot; WA License #128343</footer>
+
+</div>
+</div>
+</body>
+</html>
